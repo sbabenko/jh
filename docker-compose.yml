@@ -20,6 +20,6 @@ services:
     ports:
     - 8081:8081
     - 3306:3306
-    command: mvn clean spring-boot:run
+    command: mvn clean install #spring-boot:run
     #depends_on:
     #- hk-mysql
